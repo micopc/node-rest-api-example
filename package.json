@@ -1,0 +1,25 @@
+{
+  "name": "node-api-rest-example",
+  "version": "1.0.0",
+  "description": "Example of a REST API using Node and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Gabriel Peña",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micopc/node-api-rest-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/micopc/node-api-rest-example/issues"
+  },
+  "homepage": "https://github.com/micopc/node-api-rest-example#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.1.5"
+  }
+}
