@@ -26,9 +26,9 @@ mongoose.connect('mongodb://localhost/tvshows', function(err, res) {
     console.log('Connected to Database');
 });
 
-var models = require('./models/tvshow')(app, mongoose);
+var models = require('./models/tvshow.model')(app, mongoose);
 
-var TVShowCtrl = require('./controllers/tvshows');
+var TVShowCtrl = require('./controllers/tvshows.controller');
 
 console.log(TVShowCtrl);
 
